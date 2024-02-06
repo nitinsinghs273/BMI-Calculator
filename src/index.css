@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+
+  color: gray;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 0 40px;
+  width: 220px;
+  box-shadow: 1px 1px 10px 1px #2e2e2e;
+  height: 400px;
+}
+.label {
+  width: 100%;
+}
+h3 {
+  margin-bottom: 15px;
+}
+.weight input {
+  width: initial;
+  height: 35px;
+  padding-left: 3px;
+}
+.Height {
+  display: flex;
+  gap: 10px;
+}
+.Height input {
+  width: 50%;
+  height: 35px;
+  padding-left: 3px;
+}
+button {
+  width: 100%;
+  border-radius: 5px;
+  height: 35px;
+  border: 2px solid gray;
+  margin-top: 5px;
+  padding: 5px;
+}
+.submit {
+  width: 100%;
+  background-color: #1f75fe;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding-left: 3px;
+}
+
+label {
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+h4 {
+  margin-top: 10px;
+  font-size: 13px;
+  color: black;
+  font-weight: 800;
+}
+
+p {
+  font-size: 9px;
+  font-weight: 600;
+}
